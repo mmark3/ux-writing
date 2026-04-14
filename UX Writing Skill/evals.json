@@ -1,0 +1,53 @@
+{
+  "skill_name": "ux-writing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I need an error message for when a member tries to submit a prior authorization request but their provider isn't in network. The form should tell them what happened and what to do next.",
+      "expected_output": "Compact table with error message copy including heading, body, and suggested next action. Should pull voice/tone and error alert component standards from Supernova. Routes to drafting sub-skill.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're building a new prescription refill flow — 4 screens: select medication, choose pharmacy, confirm details, and success. Can you write the copy for the full flow? No Figma yet, just working from the brief.",
+      "expected_output": "Structured markdown with all 4 screens, each with relevant components (headings, body, CTAs, helper text, error states where applicable). Should pull foundational standards from Supernova. Routes to drafting sub-skill.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Can you review this copy for our benefits summary card?\n\nHeading: Your Benefits\nBody: Below is a summary of your current benefits. Click on a benefit to see more details about your coverage.\nCTA: View All Benefits\nSecondary link: Download benefits PDF",
+      "expected_output": "Feedback organized by severity (must fix, should fix, consider) with specific issues, standard references, and suggested revisions. Should pull foundational + card component standards from Supernova. Routes to review sub-skill.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We're about to redesign our member dashboard. Before we start writing anything new, I want to audit the current content on the dashboard screens to see what's working and what needs to change. Here's a general idea of what's there: a welcome message, a benefits summary card, recent claims list, action items/tasks, and quick links to common actions.",
+      "expected_output": "Content inventory table cataloging each component's content, status assessment against Supernova standards, gap analysis, and prioritized findings. Routes to discovery sub-skill.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "We're adding a new 'Care Finder' feature that helps members search for in-network providers, compare them, and book appointments. Product gave us the user flow but no one has thought about what content goes where yet. Can you help plan the content approach before we start writing?",
+      "expected_output": "Content requirements map with each step in the flow annotated with content needs, component types, tone guidance, and terminology decisions. Routes to strategy sub-skill.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "I just need a few quick labels — what should we call the button that lets a member download their ID card, and what helper text should go under the 'Date of Birth' field on the enrollment form?",
+      "expected_output": "Compact table with button label and helper text. Minimal — no scaffolding overhead for a simple ask. Routes to drafting sub-skill.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "We wrote copy for the new claims status page but something feels off about the tone. It's technically correct but feels cold. Can you look at it and tell me what's not working?\n\nHeading: Claims Status\nBody: The following claims have been processed. Select a claim to view details. If you have questions about a claim, contact Member Services.\nEmpty state: No claims found.\nFilter label: Filter by status\nFilter options: All, Pending, Approved, Denied",
+      "expected_output": "Review focused on tone — should identify the clinical/transactional register, reference voice/tone standards from Supernova, and provide warmer alternatives that still feel professional. Routes to review sub-skill.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Write the empty states for these three screens: prescription history (member has no prescriptions on file), messages inbox (no messages yet), and upcoming appointments (nothing scheduled). Keep them encouraging, not just 'nothing here.'",
+      "expected_output": "Compact table or short structured markdown with 3 empty states, each with heading and body that orient the user toward action. Should reflect voice/tone standards. Routes to drafting sub-skill.",
+      "files": []
+    }
+  ]
+}
